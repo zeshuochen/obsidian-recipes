@@ -1,0 +1,14 @@
+{
+  "name": "cooking-skills",
+  "owner": {
+    "name": "zeshuochen"
+  },
+  "plugins": [
+    {
+      "name": "cooking",
+      "source": "./",
+      "description": "Agent Skills for organizing recipes",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "cooking",
+  "version": "1.0.0",
+  "description": "Agent Skills for organizing recipes from Xiaohongshu into an Obsidian vault.",
+  "author": {
+    "name": "zeshuochen"
+  },
+  "repository": "https://github.com/zeshuochen/cooking-skills",
+  "license": "MIT",
+  "keywords": [
+    "cooking",
+    "recipes",
+    "obsidian",
+    "xiaohongshu"
+  ]
+}
