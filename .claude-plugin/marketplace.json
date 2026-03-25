@@ -1,5 +1,5 @@
 {
-  "name": "cooking-skills",
+  "name": "obsidian-recipes",
   "owner": {
     "name": "zeshuochen"
   },
@@ -7,7 +7,7 @@
     {
       "name": "cooking",
       "source": "./",
-      "description": "Agent Skills for organizing recipes",
+      "description": "Agent Skills for turning recipe videos and posts into structured Obsidian notes.",
       "version": "1.0.0"
     }
   ]

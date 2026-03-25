@@ -1,4 +1,4 @@
-# cooking-skills
+# obsidian-recipes
 
 **Agent Skills for turning recipe videos and posts into structured Obsidian notes.**
 
@@ -19,8 +19,8 @@
 ### Claude Code
 
 ```
-/plugin marketplace add zeshuochen/cooking-skills
-/plugin install cooking@cooking-skills
+/plugin marketplace add zeshuochen/obsidian-recipes
+/plugin install cooking@obsidian-recipes
 ```
 
 ### Manual
@@ -147,8 +147,8 @@ https://www.youtube.com/watch?v=...   organize recipe
 ### 安装
 
 ```
-/plugin marketplace add zeshuochen/cooking-skills
-/plugin install cooking@cooking-skills
+/plugin marketplace add zeshuochen/obsidian-recipes
+/plugin install cooking@obsidian-recipes
 ```
 
 ### 配置
