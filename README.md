@@ -4,6 +4,8 @@
 
 > Follows the [Agent Skills specification](https://agentskills.io/specification) — works with Claude Code, Codex CLI, and any skills-compatible agent.
 
+[中文](README.zh.md)
+
 ---
 
 ## Skills
@@ -61,7 +63,7 @@ https://www.youtube.com/watch?v=...   organize recipe
 
 1. **Fetch** — open each link in Chrome and extract the post body, description, and comments
 2. **Classify** — distinguish recipe posts from technique videos (e.g. deboning demos); merge techniques as steps into the related recipe
-3. **Write** — create a structured Markdown note in your Obsidian vault using the matching language template
+3. **Write** — create a structured Markdown note in the configured folder using the matching language template
 
 ---
 
@@ -98,7 +100,7 @@ https://www.youtube.com/watch?v=...   organize recipe
 - [可乐鸡腿饭](https://www.xiaohongshu.com/explore/67e0ef8e000000001e00b1f8)
 ```
 
-### 中文
+### Chinese
 
 ```markdown
 # 菜名：可乐鸡腿饭
@@ -130,29 +132,6 @@ https://www.youtube.com/watch?v=...   organize recipe
 ## 来源
 - [可乐鸡腿饭](https://www.xiaohongshu.com/explore/67e0ef8e000000001e00b1f8)
 - [30秒鸡腿去骨技巧](https://www.xiaohongshu.com/explore/67518a240000000002029feb)
-```
-
----
-
-## 简介（中文）
-
-**从小红书、哔哩哔哩、YouTube 食谱视频一键生成结构化 Markdown 笔记的 Agent Skill。**
-
-自动识别语言——中文链接输出中文笔记，英文链接输出英文笔记。
-
-### 安装
-
-```
-/plugin marketplace add zeshuochen/recipe-organizer
-/plugin install cooking@recipe-organizer
-```
-
-### 配置
-
-编辑 `skills/recipe-organizer/SKILL.md`，修改以下配置：
-
-```
-SAVE_PATH=C:\Users\you\Recipes     # 笔记保存文件夹的绝对路径
 ```
 
 ---
