@@ -1,7 +1,7 @@
 {
   "name": "cooking",
   "version": "1.0.0",
-  "description": "Agent Skills for turning recipe videos and posts into structured Obsidian notes.",
+  "description": "Agent Skill for turning recipe videos and posts into structured Markdown notes.",
   "author": {
     "name": "zeshuochen"
   },
