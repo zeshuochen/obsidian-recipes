@@ -1,19 +1,18 @@
 ---
 name: recipe-organizer
-description: Fetch recipes from Xiaohongshu, YouTube, or Bilibili links, extract ingredients and steps, and save structured notes to an Obsidian vault. Use when the user shares recipe links and asks to organize or save a recipe.
+description: Fetch recipes from Xiaohongshu, YouTube, or Bilibili links, extract ingredients and steps, and save structured notes to a local folder. Use when the user shares recipe links and asks to organize or save a recipe.
 ---
 
 # Recipe Organizer
 
-Fetch recipes from recipe posts or videos (Xiaohongshu, YouTube, Bilibili), extract structured content, and save clean recipe notes to an Obsidian vault.
+Fetch recipes from recipe posts or videos (Xiaohongshu, YouTube, Bilibili), extract structured content, and save clean recipe notes to a local folder.
 
 ## Configuration
 
-Edit these values before first use:
+Edit this value before first use:
 
 ```
-VAULT_PATH=C:\Users\you\MyVault     # absolute path to your Obsidian vault
-RECIPES_FOLDER=Recipes              # folder inside the vault for recipe notes
+SAVE_PATH=C:\Users\you\Recipes     # absolute path to the folder where notes will be saved
 ```
 
 ## Workflow
@@ -45,7 +44,7 @@ Try `mcp__claude-in-chrome__get_page_text` first; fall back to `mcp__claude-in-c
 
 ### Step 4 — Write the note
 
-Use the `Write` tool to create `<VAULT_PATH>/<RECIPES_FOLDER>/<dish name>.md`.
+Use the `Write` tool to create `<SAVE_PATH>/<dish name>.md`.
 
 **Chinese template:**
 

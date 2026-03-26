@@ -1,6 +1,6 @@
 # recipe-organizer
 
-**Agent Skill for turning recipe videos and posts into structured Obsidian notes.**
+**Agent Skill for turning recipe videos and posts into structured Markdown notes.**
 
 > Follows the [Agent Skills specification](https://agentskills.io/specification) — works with Claude Code, Codex CLI, and any skills-compatible agent.
 
@@ -10,7 +10,7 @@
 
 | Skill | Description |
 |-------|-------------|
-| [recipe-organizer](skills/recipe-organizer) | Fetch recipes from Xiaohongshu, YouTube, or Bilibili, extract ingredients & steps, and save clean notes to your Obsidian vault — in English or Chinese |
+| [recipe-organizer](skills/recipe-organizer) | Fetch recipes from Xiaohongshu, YouTube, or Bilibili, extract ingredients & steps, and save clean notes to a local folder — in English or Chinese |
 
 ---
 
@@ -31,11 +31,10 @@ Clone this repo and copy the `skills/` directory to your agent's skills path.
 
 ## Quick start
 
-1. **Configure** your vault path in `skills/recipe-organizer/SKILL.md`:
+1. **Configure** your save path in `skills/recipe-organizer/SKILL.md`:
 
 ```
-VAULT_PATH=C:\Users\you\MyVault     # your Obsidian vault
-RECIPES_FOLDER=Recipes              # folder for recipe notes
+SAVE_PATH=C:\Users\you\Recipes     # folder where notes will be saved
 ```
 
 2. **Share a link** and ask your agent to organize the recipe:
@@ -137,7 +136,7 @@ https://www.youtube.com/watch?v=...   organize recipe
 
 ## 简介（中文）
 
-**从小红书、哔哩哔哩、YouTube 食谱视频一键生成结构化 Obsidian 笔记的 Agent Skill。**
+**从小红书、哔哩哔哩、YouTube 食谱视频一键生成结构化 Markdown 笔记的 Agent Skill。**
 
 自动识别语言——中文链接输出中文笔记，英文链接输出英文笔记。
 
@@ -150,11 +149,10 @@ https://www.youtube.com/watch?v=...   organize recipe
 
 ### 配置
 
-编辑 `skills/recipe-organizer/SKILL.md`，修改以下两项：
+编辑 `skills/recipe-organizer/SKILL.md`，修改以下配置：
 
 ```
-VAULT_PATH=C:\Users\you\MyVault     # Obsidian vault 的绝对路径
-RECIPES_FOLDER=Recipes              # vault 内食谱文件夹
+SAVE_PATH=C:\Users\you\Recipes     # 笔记保存文件夹的绝对路径
 ```
 
 ---
