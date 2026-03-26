@@ -36,7 +36,7 @@ Clone this repo and copy the `skills/` directory to your agent's skills path.
 1. **Configure** your save path in `skills/recipe-organizer/SKILL.md`:
 
 ```
-SAVE_PATH=C:\Users\you\Recipes     # folder where notes will be saved
+SAVE_PATH=     # absolute path to the folder where notes will be saved
 ```
 
 2. **Share a link** and ask your agent to organize the recipe:

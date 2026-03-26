@@ -36,7 +36,7 @@
 1. **配置**保存路径，编辑 `skills/recipe-organizer/SKILL.md`：
 
 ```
-SAVE_PATH=C:\Users\you\Recipes     # 笔记保存文件夹的绝对路径
+SAVE_PATH=     # 笔记保存文件夹的绝对路径
 ```
 
 2. **分享链接**，让 agent 整理食谱：
