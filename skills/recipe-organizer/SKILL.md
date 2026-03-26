@@ -12,7 +12,7 @@ Fetch recipes from recipe posts or videos (Xiaohongshu, YouTube, Bilibili), extr
 Edit this value before first use:
 
 ```
-SAVE_PATH=C:\Users\you\Recipes     # absolute path to the folder where notes will be saved
+SAVE_PATH=     # absolute path to the folder where notes will be saved
 ```
 
 ## Workflow
